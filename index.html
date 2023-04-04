@@ -17,19 +17,20 @@
 <body>
 
     <!-- header-- -->
-    
-    <header>
+ <header>
         <nav >
             <aside class="logo-main">
                 <span class="logo-text">THE</span>
                 <span class="logo-text-1">PERFECT CUT</span>
             </aside>
-       
            <ul class="nav-main">
             <a class="nav-list" href="">ABOUT</a>
             <a class="nav-list" href="">PRIZING</a>
             <a class="nav-list" href="">CONTACT</a>
            </ul>
+           <span class="material-symbols-rounded " id="menu-icon">
+            menu
+            </span>
         </nav>
         <aside class="header-container">
             <aside class="container">
@@ -51,11 +52,11 @@
 
 
         </aside>
-    </header> 
+    </header>   
 
 <!-- <section>-1-->
 
-    <section>
+ <section>
 <aside class="section-container">
 <aside class="section-title">
 <h3 class="section-h3">ABOUT</h3>
@@ -67,7 +68,7 @@
 <img class="dp" src="/image.png" width="100%" alt="">
 </aside>
 </aside>
-    </section>
+    </section> 
 
     <!-- section--2 -->
 
@@ -87,11 +88,11 @@
 </aside>
 </aside>
 </aside>
-    </section> 
+    </section>   
 
     <!-- section--3 -->
 
-    <!-- <section class="card">
+<section class="card">
 <aside class="card-container">
 <aside class="card-content">
 <img class="card-img" src="/icon_1.png" alt="">
@@ -114,14 +115,14 @@
         </h3>
         </aside>
 </aside>
-    </section> -->
+    </section>   
 
     <!-- section--4 -->
 
-    <!-- <section class="appointment-section">
+<section class="appointment-section">
 <aside class="appointment-container">
 <aside class="labour-img">
-<img src="/appoinment-img.png" height="100%" width="100%" alt="">
+<img class="labour-dp" src="/appoinment-img.png"   width="100%" alt="">
 </aside>
 <aside class="appointment-text">
     <aside class="text-main">
@@ -132,11 +133,11 @@
 <a class="appointment-btn" href="">BOOK APOINTMENT</a>
 </aside>
 </aside>
-    </section> -->
+    </section> 
 
     <!-- section--5 -->
 
-    <!-- <section class="appointment-section-2">
+    <section class="appointment-section-2">
         <aside class="appointment-container-2">
             <aside class="appointment-text-2">
                 <aside class="text-main-2">
@@ -147,15 +148,15 @@
         <a class="appointment-btn-1" href="">BOOK APOINTMENT</a>
             </aside>
         <aside class="labour-img-1">
-        <img src="/second-app-img.png" height="100%" width="100%" alt="">
+        <img class="labour-dp-2" src="/second-app-img.png" width="100%" alt="">
         </aside>
     
         </aside>
-            </section> -->
+            </section>  
 
 <!-- --section--6 -->
 
-            <!-- <section class="pricing-list">
+             <section class="pricing-list">
 <aside  class="price-container">
 <aside class="price-text">
 <h1 class="price-h1">Pricing <br> List</h1>
@@ -183,12 +184,13 @@
 
 </aside>
 </aside>
-            </section> -->
+            </section>  
 
             <!-- ---section-7 -->
 
-            <!-- <section class="contact-us">
+          <section class="contact-us">
 <aside class="contact-container">
+  
     <aside class="contact-main">
         <aside class="contact-img">
             <img class="contact-dp" src="/contact-us-img.png" alt="">
@@ -199,6 +201,7 @@
     </aside>
 
     <aside class="contact-input">
+        <form onsubmit="return confirm('Do you want submit the form?');">
         <aside class="input-main">
             <label class="user-detail" for="">FIRST NAME</label>
             <input class="input" type="text">
@@ -225,14 +228,16 @@
         </aside>
 
         <button class="contact-btn">SEND MESSAGE</button>
+        </form>
+  
     </aside>
 
 </aside>
-            </section> -->
+            </section>  
 
             <!-- --footer-- -->
 
-            <!-- <footer>
+            <footer>
                 <aside class="footer-container">
 <aside class="footer-text">
     <aside class="footer-logo">
@@ -259,13 +264,24 @@
 <h1 class="footer-h1-3">Stay informed about our monthly promotions, <br> products & more</h1>
 <aside class="footer-input">
 <label class="footer-label">EMAIL</label>
-<input type="text" class="footer-input">
+<input type="text" class="footer-input-1">
 </aside>
 <button class="footer-btn">SEND</button>
 </aside>
 
 </aside>
-            </footer> -->
-
+            </footer> 
+>
+<script type="text/javascript" src="script.js">
+    function validate (form){
+        if(!valid){
+            alert('djqbdpls');
+            return false; 
+        }
+        else{
+            return confirm('do you')
+        }
+    }
+</script>
 </body>
 </html>
