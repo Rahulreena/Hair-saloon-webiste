@@ -5,12 +5,17 @@
   font-family: "Poppins", sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 header {
   height: 100vh;
   background: url(/Hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  overflow: hidden;
 }
 
 nav {
@@ -20,6 +25,9 @@ nav {
   align-items: center;
   padding: 1.8rem;
 }
+
+
+
 .logo-main {
   letter-spacing: 0.2rem;
 }
@@ -153,6 +161,7 @@ section {
   height: 3.1rem;
   text-align: center;
 }
+
 
 /* section--2 */
 
@@ -533,6 +542,7 @@ border-bottom: 1px solid white;
 
 .contact-us {
   background: #f4ede6;
+  overflow: hidden;
 }
 
 .contact-container {
@@ -647,7 +657,6 @@ footer {
   border: 2px solid rgb(255, 255, 255);
   font-size: 1.3rem;
   padding: 0.1rem 0.5rem;
-
   font-weight: 500;
 }
 
@@ -901,6 +910,8 @@ z-index: 99;
     backdrop-filter: blur(8px);
   }
 
+
+
   .nav-main.open {
     right: 2%;
     align-items: center;
@@ -981,6 +992,11 @@ z-index: 99;
     padding-right: 0;
     padding-bottom: 3rem;
     border-bottom: 2px solid black;
+  }
+
+  .content-2{
+    text-align: center;
+    align-items: center;
   }
 
   .appointment-text-2 {

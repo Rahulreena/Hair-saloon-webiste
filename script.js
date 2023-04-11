@@ -12,3 +12,5 @@ input.onclick = ()=>{
     input.classList.toggle('bx-x');
     inputbox.classList.toggle('open1');
 }
+AOS.init();
+
